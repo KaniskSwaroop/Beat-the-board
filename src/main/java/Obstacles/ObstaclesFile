@@ -1,0 +1,16 @@
+Obstacles is the parent class for 3 different types of obstacles
+1) Pit obstacle-
+    If a player enters this pit then the player loses 5 points and is redirected to its previous position
+
+2) Swap Obstacle-
+    If a player enters this shell then it has to swap positions with the player who holds the last spot in the race. Additionally,
+    the player loses 3 points.
+
+3) Pit mov and score half obstacle-
+    Player score is halved
+
+4) Another player obstacle-
+    Player cannot move in that direction because there is another player.
+
+5) Board boundaries-
+    Player cannot move in a direction because the board ends

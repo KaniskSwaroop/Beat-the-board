@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.HelloController">
+   <children>
+      <TextField fx:id="enterPlayerName" layoutX="113.0" layoutY="143.0" prefHeight="25.0" prefWidth="338.0" promptText="Enter player name" />
+      <TextField fx:id="enterPlayerAge" layoutX="113.0" layoutY="217.0" prefHeight="25.0" prefWidth="338.0" promptText="Enter player age" />
+      <Button fx:id="addPlayer" layoutX="224.0" layoutY="286.0" mnemonicParsing="false" onAction="#displayAddPlayerScreen" prefHeight="45.0" prefWidth="117.0" text="Add player" textFill="#9e1f1f">
+         <font>
+            <Font name="Kristen ITC" size="15.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="175.0" layoutY="14.0" prefHeight="103.0" prefWidth="214.0" style="-fx-background-color: EFEEF1;" styleClass="Enter player details" text="Enter player details">
+         <font>
+            <Font name="Kristen ITC" size="19.0" />
+         </font>
+      </TextArea>
+   </children>
+</Pane>

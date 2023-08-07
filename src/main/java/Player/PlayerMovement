@@ -1,0 +1,9 @@
+-> player cannot skip more than two continuous chances
+-> player gets 5 points for a successful move forward
+-> Player can only make a backward move if he has a positive score
+
+-> using playerSidewaysMovement boolean for deciding player sideways movement
+    if false -> moving left
+    else -> moving right
+
+-> 2 points for a successful sideways movement
